@@ -1,0 +1,300 @@
+header div.container {
+  height: 100%;
+}
+
+header.architect_header nav {
+  background-color: white;
+  height: 6.2em;
+}
+
+header.architect_header nav ul {
+  height: 100%;
+}
+
+header.architect_header nav ul li {
+  height: 100%;
+}
+
+header.architect_header nav ul li a {
+  padding-top: .8em;
+  height: 100%;
+  color: black;
+  font-size: 1.2em;
+}
+
+header.architect_header nav ul li a:hover {
+  color: #283593;
+}
+
+header.architect_header nav .brand-logo img {
+  width: 3.5em;
+  padding-top: .3em;
+  background-color: white;
+  padding: .4em;
+  margin-top: .5em;
+}
+
+header .banner {
+  background-image: url(/src/banner-4.jpg);
+  background-attachment: fixed;
+  background-size: 88em;
+  background-repeat: no-repeat;
+  height: 37.7em;
+  background-position-x: 15em;
+  background-color: #185d7d;
+}
+
+header .banner .container .text {
+  margin-top: 7em;
+  padding: 3em;
+  background-color: #ffffff;
+  height: 100%;
+  border-radius: 10px;
+}
+
+header .banner .container .text h1 {
+  margin-top: 0px;
+  font-size: 4.5em;
+  margin-bottom: .5em;
+  position: relative;
+  font-weight: 400;
+  color: #151e61;
+}
+
+header .banner .container .text h1:after {
+  content: '';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 60%;
+  top: 1.3em;
+}
+
+header .banner .container .text p {
+  font-size: 1.2em;
+  line-height: 1.9em;
+}
+
+header .banner .container .text h3 {
+  color: #0f1775;
+  border-top: 1px solid;
+  padding-top: 15px;
+}
+
+section#nuestrosServicios h4 {
+  margin-bottom: 2em;
+  clear: both;
+  position: relative;
+}
+
+section#nuestrosServicios h4::after {
+  content: '';
+  border: 1px solid #ffbe3c;
+  display: block;
+  width: 50%;
+  position: absolute;
+  top: 1.6em;
+}
+
+section#nuestrosServicios #gerencia img {
+  width: 100%;
+}
+
+section#nuestrosServicios #gerencia .left-section {
+  padding-left: 10em;
+}
+
+section#nuestrosServicios #gerencia .left-section h3 {
+  margin-top: 0px;
+  padding-top: 0px;
+  line-height: 36px;
+  font-size: 5rem;
+  line-height: 51px;
+  margin-bottom: .5em;
+}
+
+section#nuestrosServicios #gerencia p {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+section#nuestrosServicios #diseno {
+  margin-top: 14em;
+}
+
+section#nuestrosServicios #diseno .image-text {
+  position: relative;
+}
+
+section#nuestrosServicios #diseno .image-text h3 {
+  -webkit-text-fill-color: transparent;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 5rem;
+  margin: 0;
+  font-size: 8.8rem;
+  position: absolute;
+  top: -1.3em;
+  z-index: 11;
+}
+
+section#nuestrosServicios #diseno .image-text img {
+  height: 29em;
+  width: 382px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+section#nuestrosServicios #diseno .text-diseno p {
+  font-size: 29px;
+  font-weight: 100;
+}
+
+section#nuestrosServicios #diseno .text-diseno:before {
+  content: '';
+  display: block;
+  border-bottom: 1px solid #151e61;
+}
+
+section#nuestrosServicios #construccion {
+  margin-top: 8.6em;
+}
+
+section#nuestrosServicios #construccion .right-section {
+  position: relative;
+}
+
+section#nuestrosServicios #construccion .right-section:before {
+  content: '';
+  position: absolute;
+  outline: 2.8px solid black;
+  outline-offset: 1em;
+  width: 89%;
+  height: 90%;
+  left: 5em;
+  top: -1.5em;
+}
+
+section#nuestrosServicios #construccion .left-section {
+  padding-left: 11em;
+}
+
+section#nuestrosServicios #construccion .left-section h3 {
+  margin: 0;
+  font-size: 4.6rem;
+  color: #ffbe3c;
+  font-weight: 600;
+}
+
+section#nuestrosServicios #construccion .left-section p {
+  font-size: 1.467em;
+  line-height: 1.3em;
+  font-weight: 100;
+}
+
+section#sublema {
+  background-image: url("/src/lema-1.jpg");
+  background-size: cover;
+  height: 30em;
+  background-attachment: fixed;
+  background-position-y: -2em;
+  padding-top: 7em;
+  margin-top: 6em;
+}
+
+section#sublema .text-lema h5 {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  color: #473b3b;
+  font-size: 2.4rem;
+  font-weight: light;
+  padding: 1em 0px;
+}
+
+section#sublema .img_last img {
+  height: 14em;
+}
+
+footer.page-footer {
+  background-color: #333;
+  padding-top: 5em;
+}
+
+footer.page-footer .icon-footer {
+  position: relative;
+  padding-bottom: 2em;
+  border-right: 1px solid white;
+}
+
+footer.page-footer .icon-footer img {
+  width: 7em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer.page-footer .contacto-footer {
+  padding-left: 2em;
+}
+
+footer.page-footer .footer-copyright {
+  background-color: rgba(36, 36, 36, 0.61);
+}
+
+figure figcaption {
+  background-color: #383838 !important;
+  padding: 90px !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff !important;
+}
+
+figure figcaption#fig-construccion {
+  padding: 5em !important;
+  background-color: white !important;
+  border: 2px solid black;
+  color: black !important;
+}
+
+figure figcaption#fig-construccion h2 {
+  color: black;
+}
+
+figure figcaption#fig-construccion p {
+  font-size: 2em;
+}
+
+figure:before {
+  background-color: #151e61 !important;
+}
+
+figure#f-diseno:before {
+  background-color: #ffbe3c !important;
+}
+
+#myBtn {
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  font-size: 2em;
+}
+
+#myBtn:hover {
+  background-color: #ead443 !important;
+  color: #1a237e;
+  /* Add a dark-grey background on hover */
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,77 @@
+header{
+    // HACK PARA EL HOVER
+    div.container{ height: 100%; }
+    &.architect_header{
+       nav{
+           background-color: white;
+           height: 6.2em;
+           ul{
+               height: 100%;
+               li{
+                   height: 100%;
+                   a{
+                       padding-top: .8em;
+                       height: 100%;
+                       color: black;
+                       font-size: 1.2em;
+                       &:hover{
+                           color:#283593;
+                       }
+                   }
+               }              
+           }
+           .brand-logo{
+            img{
+             width: 3.5em;
+             padding-top: .3em;          
+             background-color: white;
+             padding: .4em;
+             margin-top: .5em;
+            }
+        } 
+       }
+    }
+    .banner{
+        background-image: url(/src/banner-4.jpg);
+        background-attachment: fixed;
+        background-size: 88em;
+        background-repeat: no-repeat;
+        height: 37.7em;
+        background-position-x: 15em;
+        background-color: #185d7d;
+        .container{
+            .text{
+                margin-top: 7em;
+                padding: 3em;
+                background-color: #ffffff;
+                height: 100%;
+                border-radius: 10px;
+                h1{
+                    margin-top:0px;
+                    font-size: 4.5em;
+                    margin-bottom: .5em;
+                    position: relative;
+                    font-weight: 400;
+                    color: #151e61;
+                    &:after{
+                        content:'';
+                      
+                        display:flex;
+                        position: absolute;
+                        width: 60%;
+                        top: 1.3em;
+                    }
+                }
+                p{
+                    font-size: 1.2em;
+                    line-height: 1.9em;
+                }
+                h3{
+                    color: #0f1775;
+                    border-top: 1px solid;
+                    padding-top: 15px;
+                }
+            }
+        }
+    }
+}

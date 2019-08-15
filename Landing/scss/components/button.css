@@ -1,0 +1,53 @@
+button:focus, button:active {
+  border: 0px;
+  outline: none;
+}
+
+button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.btn_facebook {
+  background-color: #1877f2;
+  color: white;
+  border-radius: .5em;
+  font-size: 1.2em;
+  padding: .3em;
+  padding-top: 0.3em;
+  padding-right: 1.3em;
+  padding-left: 2.5em;
+  position: relative;
+}
+
+.btn_facebook img {
+  position: absolute;
+  height: 1.4em;
+  vertical-align: bottom;
+  position: absolute;
+  left: 16px;
+}
+
+.btn_facebook:hover {
+  background-color: #1972e6;
+}
+
+.btn_facebook:visited {
+  color: white !important;
+}
+
+.btn_principal {
+  border-radius: 5em;
+  background-color: #9f6929;
+  color: white;
+  padding: .5em;
+  font-weight: bolder;
+  border: 0px solid;
+  width: 35%;
+}
+
+.btn_principal:hover {
+  background-color: #684821;
+}
+/*# sourceMappingURL=button.css.map */

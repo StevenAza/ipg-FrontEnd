@@ -1,0 +1,53 @@
+%without_apar{
+    border: 0px;
+    outline: none;
+}
+button{
+
+    appearance: none;
+    &:focus{
+        @extend %without_apar;
+    }
+    &:active{
+        @extend %without_apar;
+    }
+}
+.btn_facebook{
+    background-color: #1877f2;
+    color:white;
+    border-radius: .5em;
+    font-size: 1.2em;
+    padding: .3em;
+    padding-top: 0.3em;
+    padding-right: 1.3em;
+    padding-left: 2.5em;
+    position: relative;
+
+    img{
+        position: absolute;
+        height: 1.4em;
+        vertical-align: bottom;
+        position: absolute;
+        left: 16px;
+    }
+    &:hover{
+        background-color: #1972e6;
+    }
+    &:visited{
+        color: white !important;
+    }
+}
+.btn_principal{
+    border-radius: 5em;
+    background-color: #9f6929;
+    color: white;
+    padding: .5em;
+    font-weight: bolder;
+    border: 0px solid;
+    width: 35%;
+    &:hover{
+        background-color: #684821
+    }
+
+
+}

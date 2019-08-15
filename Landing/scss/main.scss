@@ -1,0 +1,196 @@
+%img_steps{
+    height: 1.5em;
+    width: 45%;
+    margin: 1em 0em;
+}
+.bold{
+    font-weight: bold;
+}
+%header-font{
+    font-family: 'the_bold_fontbold';
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff0de;
+    font-size: 18px;
+    background-image: url(./../assets/fondo_tablet.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  //  background-position: center -25px;
+    .border_ice{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #step1{
+        margin-top: 4em;
+        .border_ice{
+            .log_princi{
+                    height: 10em;
+                    margin-bottom: 1em;
+            }
+            label{
+                font-weight: bold;
+                text-transform: lowercase;
+            }
+            form{
+                width: 100%;
+            }
+        }
+    }
+    #step2{
+        margin-top: 7em;
+        .step_image{
+            @extend %img_steps;
+        }
+        .images_ice{
+            .image_opt{
+                display: flex;
+                 align-items: center;
+                flex-direction: column;
+                picture{
+                    img{
+                        height: 25em;
+                        cursor: pointer;
+                        &:hover{
+                            opacity: .6;
+                        }
+                    }
+                }
+                .option_check{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    label{
+                        display: block;
+                    }
+                    input{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    #step3{
+        margin-top: 10em;
+        .border_ice{
+            .step_image{
+                @extend %img_steps;
+                height: 2em;
+            }
+            .second{
+                img{
+                    height: 18em;
+                }
+            }
+            .container_croc{
+                .image_opt{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom: 2em;
+                    img{
+                        height: 8em;
+                    }
+                    .inputs_opt{
+                     display:flex;
+                     flex-direction: column;
+                     align-items: center;
+                    }
+                }
+            }
+        }
+    }
+    #step4{
+        margin-top: 7em;
+        .border_ice{
+            .step_image{
+                @extend %img_steps;
+                height: 2em;
+            }
+            .sauce_container{
+                .sauce{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom: 2em;
+                    img{
+                        height: 8em;
+                    }
+                    .inputs_opt{
+                     display:flex;
+                     flex-direction: column;
+                     align-items: center;
+                     position: relative;
+                     label{
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        position: absolute;
+                     }
+                     input{
+                         margin-top: 4em;
+                     }
+                    }
+                }
+            }
+        }
+        .container_ices{
+            .f_image{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    height: 18em;
+                }
+            }
+            .s_text{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+
+    }
+    #step5{
+        margin-top: 5em;
+        .last_step{
+            .logo_f{
+                    height: 10em;
+                    margin-bottom: 1em;
+            }
+            .step_imag{
+                height: 2em;
+                margin:2em;
+            }
+            .text_stepf{
+                h2{
+                    font-size: 3.5em;
+                }
+                p{
+                    &:first-child{
+                        font-size: 2.8em;
+                        @extend %header-font;
+                    }
+                    &:nth-child(2){
+                        font-size: 1.8em;
+                        @extend %header-font;
+                    }
+                    &.code_{
+                        color: #9f6929;
+                    }
+                }
+            }
+        }
+    }
+    .step-footer{
+        margin-bottom: 5em !important;
+    }
+}

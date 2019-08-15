@@ -1,0 +1,184 @@
+section{
+    &#nuestrosServicios{
+        h4{
+            margin-bottom: 2em;
+            clear: both;
+            position: relative;
+            &::after{
+                content: '';
+                border: 1px solid #ffbe3c;
+                display: block;
+                width: 50%;
+                position: absolute;
+                top:1.6em;
+            }
+        }
+        #gerencia{
+            img{
+                width: 100%;
+            } 
+            .left-section{
+                padding-left: 10em;
+                h3{
+                    margin-top: 0px;
+                    padding-top: 0px;
+                    line-height: 36px;
+                    font-size: 5rem;
+                    line-height: 51px;
+                    margin-bottom: .5em;
+                }
+            }
+            p{
+                font-size: 1.5em;
+                font-weight: 300;
+            }
+        }
+        #diseno{
+            margin-top:14em;
+            .image-text{
+               
+                position: relative;
+                h3{
+                    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: black;
+                    font-size: 5rem;
+                    margin: 0;
+                    font-size: 8.8rem;
+                    position: absolute;
+                    top: -1.3em;
+                    z-index: 11;
+                }
+                img{
+                    height: 29em;
+                    width: 382px;
+                    object-fit: cover;
+                }
+            }
+            .text-diseno{
+                p{
+                    font-size: 29px;
+                    font-weight: 100;
+                }
+                &:before{
+                    content: '';
+                    display: block;
+                    border-bottom: 1px solid #151e61;
+                }
+            }            
+        }
+
+        #construccion{
+            .right-section{
+                position: relative;
+                &:before{
+                        content: '';
+                        position: absolute;
+                        outline: 2.8px solid black;
+                        outline-offset: 1em;
+                        width: 89%;
+                        height: 90%;
+                        left: 5em;
+                        top: -1.5em;
+                }
+            }
+            margin-top: 8.6em;
+            .left-section{
+                padding-left: 11em;
+                h3{
+                    margin: 0;
+                    font-size: 4.6rem;
+                    color: #ffbe3c;
+                    font-weight: 600;
+                }
+                p{
+                    font-size: 1.467em;
+                    line-height: 1.3em;
+                    font-weight: 100;
+                }
+            }
+        }
+    }
+    &#sublema{
+        background-image: url("/src/lema-1.jpg");
+        background-size: cover;
+        height: 30em;
+        background-attachment: fixed;
+        background-position-y: -2em;
+        padding-top: 7em;
+        margin-top: 6em;
+        .text-lema{
+            h5{
+                border-top: 1px solid;
+                border-bottom: 1px solid;
+                color: #473b3b;
+                font-size: 2.4rem;
+                font-weight: light;
+                padding: 1em 0px;
+            }
+        }
+        .img_last{
+            img{
+               height: 14em;
+            }
+        }
+
+    }
+}
+
+footer{
+    &.page-footer{
+        background-color:  #333;
+        padding-top: 5em;
+        .icon-footer{
+            position: relative;
+            padding-bottom: 2em;
+            border-right: 1px solid white;
+            img{
+                width: 7em;
+                object-fit: cover;
+            }
+        }
+        .contacto-footer{
+            padding-left: 2em;
+        }
+
+        .footer-copyright{
+            background-color: rgba(36, 36, 36, 0.61);
+        }
+    }
+}
+figure{
+    figcaption{
+        background-color: #383838 !important;
+        padding: 90px !important;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        color: #fff !important;
+        &#fig-construccion{
+            padding: 5em !important;
+            background-color: white !important;
+            border:2px solid black;
+            color:black !important;
+            h2{
+                color:black;
+            }
+            p{
+                font-size: 2em;
+            }
+        }
+    }
+    &:before{
+        background-color: #151e61 !important;
+    }
+    &#f-diseno{
+        &:before{
+            background-color: #ffbe3c !important;
+        }
+    }
+
+}
+

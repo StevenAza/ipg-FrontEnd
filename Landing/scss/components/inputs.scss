@@ -1,0 +1,38 @@
+%formato{
+    background-color: white;
+    border: 1.5px solid #af9751;
+    padding: .6em;
+    display:block;
+    border-radius: .5em;
+    width: 100%;
+    margin: 1em 0em;
+    color: #af9751;
+    text-transform: capitalize;
+}
+input[type="text"]{
+  @extend %formato;
+  &:focus{
+      outline: none;
+  }
+  &:active{
+      outline: none;
+  }
+}
+input[type="email"]{
+    @extend %formato;
+    &:focus{
+        outline: none;
+    }
+    &:active{
+        outline: none;
+    }
+}
+input[type="number"]{
+     @extend %formato;
+     &:focus{
+        outline: none;
+    }
+    &:active{
+        outline: none;
+    }
+}

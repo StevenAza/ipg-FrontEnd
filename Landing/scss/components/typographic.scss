@@ -1,0 +1,39 @@
+@import './../fonts/headers/stylesheet.scss';
+@import './../fonts/body/stylesheet.scss';
+
+%header-font{
+    font-family: 'the_bold_fontbold';
+}
+
+%body-font{
+    font-family: 'futura_sc_t_otbook';
+}
+body{
+    font-family: 'Muli', sans-serif;
+    color:#af9751;
+}
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+        color: inherit;
+    }
+    &:visited{
+        text-decoration: none;
+        color: inherit;
+
+    }
+}
+h1,h2,h3,h4,h5,h6{
+    text-transform: uppercase;
+    text-align: center;
+    @extend %header-font;
+}
+label,p,input,a,button{
+    @extend %body-font;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+p{
+    text-align: center;
+}

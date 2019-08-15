@@ -1,0 +1,27 @@
+
+
+
+// ---------
+//----------
+//MIXINS
+@import './mixins/responsive.scss';
+
+//------------
+// COMPONENTS 
+// -----------
+@import './components/button.scss';
+@import './components/inputs.scss';
+@import './components//typographic.scss';
+
+
+//--------
+// MAIN
+@import './main.scss';
+
+//--------------
+// RESPONSIVE 
+// -------------
+@import './responsive/phone.scss';
+@import './responsive/tablet.scss';
+
+

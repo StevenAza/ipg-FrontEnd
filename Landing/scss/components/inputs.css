@@ -1,0 +1,36 @@
+input[type="text"], input[type="email"], input[type="number"] {
+  background-color: white;
+  border: 1.5px solid #af9751;
+  padding: .6em;
+  display: block;
+  border-radius: .5em;
+  width: 100%;
+  margin: 1em 0em;
+  color: #af9751;
+  text-transform: capitalize;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+input[type="text"]:active {
+  outline: none;
+}
+
+input[type="email"]:focus {
+  outline: none;
+}
+
+input[type="email"]:active {
+  outline: none;
+}
+
+input[type="number"]:focus {
+  outline: none;
+}
+
+input[type="number"]:active {
+  outline: none;
+}
+/*# sourceMappingURL=inputs.css.map */
