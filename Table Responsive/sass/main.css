@@ -1,0 +1,143 @@
+.btn_principal {
+  padding: .8em;
+  color: white;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  background-color: #947f3f;
+  outline: none;
+  border-top-left-radius: .9em;
+  border-top-right-radius: .9em;
+  font-weight: 300;
+  width: 40%;
+}
+
+.btn_principal:focus, .btn_principal:active {
+  outline: none;
+}
+
+.btn_principal:hover {
+  opacity: .8;
+}
+
+.btn_principal.active {
+  background-color: #716235;
+}
+
+.btn_search {
+  background-color: #947f3f;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn_search:active {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn_search:hover {
+  color: white;
+  opacity: .6;
+}
+
+.badge_cream {
+  background-color: #fff6ca;
+  padding: .2em .6em;
+  border-radius: 1em;
+  border: 2px solid #947f3f;
+  color: black;
+}
+
+body {
+  background-color: #fff0de;
+}
+
+body div#tools_supp {
+  margin: 4em 0em;
+}
+
+body div#tools_supp .title_tickets {
+  color: #947f3f;
+  text-transform: uppercase;
+}
+
+body div#tools_supp .inputs_ticket .input_cream {
+  border: 2px solid #af9751;
+  border-top-left-radius: .5em;
+  border-bottom-left-radius: .5em;
+}
+
+body div#tools_supp .inputs_ticket .input_cream:active, body div#tools_supp .inputs_ticket .input_cream:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 2px solid #af9751;
+}
+
+body div#tools_supp .inputs_ticket .label_info {
+  text-align: end;
+}
+
+body div#tools_supp .inputs_ticket .label_info p {
+  margin-bottom: 0.1em;
+  color: #947f3f;
+  font-weight: bold;
+}
+
+body div#table_options nav.option_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body div#table_options nav.option_button button:first-child {
+  margin-right: .3em;
+}
+
+@media (max-width: 600px) and (min-width: 300px) {
+  body div#table_options nav.option_button button {
+    padding: 0.3em !important;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+  body div#table_options nav.option_button {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+  body div#table_options .ov_scroll {
+    margin: 0 auto;
+    overflow-x: scroll;
+  }
+}
+
+body div#table_options .ov_scroll table thead th {
+  border: 1px solid #947f3f;
+  color: #947f3f;
+  font-weight: bold;
+}
+
+body div#table_options .ov_scroll table tbody {
+  background-color: #fff0de;
+}
+
+body div#table_options .ov_scroll table tbody td {
+  color: black;
+  font-weight: bold;
+  border: 1px solid #947f3f;
+}
+/*# sourceMappingURL=main.css.map */

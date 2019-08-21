@@ -1,0 +1,130 @@
+$body: #fff0de;
+$secundary: #947f3f;
+$third: #fff6ca;
+%button-principal{
+    padding: .8em;
+    color: white;
+    appearance: none;
+    border: none;
+    background-color: $secundary;
+    outline: none;
+    border-top-left-radius: .9em;
+    border-top-right-radius: .9em;
+    font-weight: 300;
+    width: 40%;
+    &:focus,&:active{
+        outline: none;
+    }
+    &:hover{
+        opacity: .8;
+    }
+}
+
+
+// BUTTONS
+.btn_principal{
+    @extend %button-principal;
+    &.active{
+        background-color: #716235;
+    }
+}
+.btn_search{
+    background-color: $secundary;
+    color: white;
+    display: flex;
+    &:active,%focus{
+        outline: none;
+        box-shadow: none;
+    }
+    &:hover{
+        color: white;
+        opacity: .6;
+    }
+}
+
+//LABELS
+.badge_cream{
+    background-color: $third;
+    padding: .2em .6em;
+    border-radius: 1em;
+    border: 2px solid $secundary;
+    color: black;
+}
+
+// BODY
+body{
+    background-color: $body;
+    div#tools_supp{
+        margin: 4em 0em;
+        .title_tickets{
+            color: $secundary;
+            text-transform: uppercase;
+        }
+        .inputs_ticket{
+            .input_cream{
+                border: 2px solid #af9751;
+                border-top-left-radius: .5em;
+                border-bottom-left-radius: .5em;
+                &:active,&:focus{
+                    outline: none;
+                    box-shadow: none;
+                    border: 2px solid #af9751;
+                }
+            }
+            .label_info{
+                text-align: end;
+                p{
+                    margin-bottom: 0.1em;
+                    color: $secundary;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    div#table_options{
+        nav.option_button{
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+            button{
+                &:first-child{
+                    margin-right: .3em;
+                }
+                @media (max-width: 600px) and (min-width: 300px){
+                    padding: 0.3em !important;
+                    font-size: 18px;
+                }
+            }
+            @media (max-width: 500px) and (min-width: 300px) {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+        }
+        .ov_scroll{
+            @media (max-width: 500px) and (min-width: 300px){
+                margin: 0 auto;
+                overflow-x: scroll;
+            }
+
+            table{
+                thead{
+                    th{
+                        border:1px solid $secundary;
+                        color:$secundary;
+                        font-weight: bold;
+                    }
+                }
+                tbody{
+                    background-color: $body;
+                    td{
+                        color: black;
+                        font-weight: bold;
+                        border: 1px solid $secundary;
+                    }
+                }
+            }
+        }
+    }
+}

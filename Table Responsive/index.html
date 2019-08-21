@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table Responsive</title>
+    <meta name="description" content="Table responsive">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./plugins/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./plugins/css/tabella.css">
+    <link rel="stylesheet" href="./sass/main.css">
+
+    <!-- plugins -->
+    <script src="./plugins/js/jquery.min.js"></script>
+
+    <script src="./plugins/js/tabella.min.js"></script>
+    <!-- custom plugins -->
+    <script src="plugins/js/table.js"></script>
+
+    <!-- icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" id="tools_supp">
+            <div class="col-12 col-lg-6 col-md-6 col-xl-6 title_tickets">
+                <h1>Redención de tickets</h1>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 col-xl-6 inputs_ticket">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control input_cream" placeholder="Recipient's username"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn_search" type="button" id="button-addon2"><i
+                                class="material-icons">search</i></button>
+                    </div>
+                </div>
+                <div class="label_info">
+                    <p>Códigos VIP Canjeados <span class="badge_cream">230</span></p>
+                    <p>Día 1 - Jueves 28 Marzo 2019</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="table_options">
+                <nav class="option_button">
+                        <button type="button" data-id="first_table" class="btn_principal active">VIP TICKETS</button>
+                        <button class="btn_principal" data-id="two_table">FILE FACTORY</button>
+                    </nav>
+            <div class="col-11 col-lg-12 col-md-12 col-xl-12 ov_scroll">
+
+                <table class="table" id="first_table">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Nombre</th>
+                            <th>Correo</th>
+                            <th>Base</th>
+                            <th>Toppings</th>
+                            <th>Recubierto</th>
+                            <th>Entregado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>83901381903</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="checkbox" name="_custom"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table" id="two_table">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Nombre</th>
+                            <th>Correo</th>
+                            <th>Base</th>
+                            <th>Toppings</th>
+                            <th>Recubierto</th>
+                            <th>Entregado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>83901381903</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="checkbox" name="_custom"></td>
+                        </tr>
+                        <tr>
+                            <td>83</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="checkbox" name="_custom"></td>
+                        </tr>
+                        <tr>
+                            <td>8390</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="checkbox" name="_custom"></td>
+                        </tr>
+                        <tr>
+                            <td>8393</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="checkbox" name="_custom"></td>
+                        </tr>
+                        <tr>
+                            <td>83903</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="checkbox" name="_custom"></td>
+                        </tr>
+                        <tr>
+                            <td>83901</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="checkbox" name="_custom"></td>
+                        </tr>
+                        <tr>
+                            <td>83903</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="checkbox" name="_custom"></td>
+                        </tr>
+                        <tr>
+                            <td>8390133</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="checkbox" name="_custom"></td>
+                        </tr>
+                        <tr>
+                            <td>83901</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="checkbox" name="_custom"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="example" class="tabella-ctr"></div> 
+</body>
+
+</html>
